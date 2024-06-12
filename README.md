@@ -1,56 +1,66 @@
 # Quiz-Explorer.App
 
-The Quiz Explorer App is a Python command-line application designed to create, manage, and explore quizzes. It provides functionalities to create quizzes, add questions to quizzes, and record answers to those questions.
+This is a simple quiz management system implemented in Python. It allows users to create quizzes, add questions to quizzes, and provide answers to those questions. Additionally, it enables users to view all quizzes, questions, and answers.
 
-## Features
+# Getting Started
+To get started with the quiz management system, follow the steps below:
 
-- **Quiz Creation**: Users can create quizzes by providing a title and description.
-- **Question Creation**: Users can add questions to quizzes, along with multiple-choice answers and the correct answer.
-- **Answer Recording**: Users can record answers to questions added to quizzes.
-- **Data Storage**: In-memory storage is used to store quizzes, questions, and answers.
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Run the Python script quiz_management_system.py in your preferred Python environment.
 
-## Usage
+# Functionality
+##Creating a Quiz
+You can create a quiz by providing a title and description. Quizzes are uniquely identified by an ID.
 
-To run the application:
+## Adding Questions to a Quiz
+For each quiz, you can add multiple-choice questions. Each question can have multiple answers (A, B, C, D) with one correct answer specified.
 
-1. Ensure you have Python installed on your system.
-2. Navigate to the project directory in your terminal.
-3. Run the following command:
+## Providing Answers
+After questions are added, you can provide answers to each question. Answers are associated with the respective question ID.
 
+# Viewing All Quizzes, Questions, and Answers
+The system provides functionality to view all quizzes, questions, and answers. This allows users to see the content of the quizzes and the corresponding answers provided.
 
-Follow the prompts to create quizzes, add questions, and record answers.
+# Usage
+Here's how you can use the provided functionality:
 
+Run the script quiz_management_system.py.
+Follow the prompts to create quizzes, add questions, and provide answers.
+Use the viewing functions to see all quizzes, questions, and answers.
 
-# Getting Started With The Quiz App:
+## Classes
+The system is structured using three main classes:
 
-To begin using The Quiz Explorer, follow these steps:
+1. Quiz: Represents a quiz with a title, description, and unique ID.
+2. Question: Represents a multiple-choice question with options (A, B, C, D), a correct answer, and associated quiz ID.
+3. Answer: Represents an answer to a question with the provided text and associated question ID.
 
-1. Download and extract the files to your local machine.
-2. Open your python file in vs code and click on the run button for your application to be visible on your terminal.
+Example Usage
+python
 
-## Usage:
+Copy code
+### Create a new quiz:
+create_quiz()
 
-### Creating and Managing Quizzes:
+### Add a question to the quiz:
+create_question()
 
-1. Enter a title and description for the quiz.
-2. Add questions to the quiz by writing beside the "Add Question" and providing the question, answer options, and correct answer.
-3. Once you've added all the questions, click the enter button to go to the next question
+### Provide an answer to the question:
+create_answer()
 
-### Answering Quiz Questions:
+### View all quizzes
+view_all_quizzes()
 
-1. Select a quiz from the list of available quizzes.
-2. Read each question carefully and select your answer.
-3. Once you've answered all the questions, click the "Submit Answers" button to view your results.
+### View all questions
+view_all_questions()
 
-### Viewing Quiz Results:
+### View all answers with correct answers
+view_all_answers()
 
-1. After submitting your answers, your results will be displayed, showing the number of correct and incorrect answers.
-2. You can review your answers and see which questions you got right or wrong.
-
-## Dependencies
-
-The application doesn't have any external dependencies beyond Python's standard library.
+## Contributing
+Contributions to this project are welcome. Feel free to open issues or submit pull requests to contribute new features, improvements, or bug fixes.
 
 ## License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
