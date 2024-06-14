@@ -5,12 +5,12 @@ This is a simple quiz management system implemented in Python. It allows users t
 # Getting Started
 To get started with the quiz management system, follow the steps below:
 
-1. Clone the repository to your local machine.
-2. Navigate to the project directory.
-3. Run the Python script quiz_management_system.py in your preferred Python environment.
+1. Clone the repository to your local machine. git@github.com:ibrahim-senzia/Quiz-Explorer.App.git
+2. Navigate to the project directory. cd Quiz-Explorer.App
+3. Run the Python script quiz_management_system.py in your preferred Python environment. pipenv install
 
 # Functionality
-##Creating a Quiz
+## Creating a Quiz
 You can create a quiz by providing a title and description. Quizzes are uniquely identified by an ID.
 
 ## Adding Questions to a Quiz
