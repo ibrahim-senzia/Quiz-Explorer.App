@@ -21,7 +21,9 @@ After questions are added, you can provide answers to each question. Answers are
 
 # Running the code
 To view your output on the terminal run this code:
-for example ( /bin/python3 /home/documents/Project/Quiz-Explorer.App/cli.py)
+
+For example ( /bin/python3 /home/documents/Project/Quiz-Explorer.App/cli.py)
+
  /bin/python3 /(Location of your folder)/(This is where your code is located at)/(This is where your code is located at)/Quiz-Explorer.App/cli.py
 
 # Viewing All Quizzes, Questions, and Answers
