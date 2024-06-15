@@ -1,10 +1,9 @@
 class Question:
-    def __init__(self, id, question, answer_a, answer_b, answer_c, answer_d, correct_answer, quiz_id):
-        self.id = id
+    def __init__(self, question, answer_A, answer_B, answer_C, answer_D, correct_answer, quiz_id):
         self.question = question
-        self.answer_a = answer_a
-        self.answer_b = answer_b
-        self.answer_c = answer_c
-        self.answer_d = answer_d
+        self.answer_A = answer_A
+        self.answer_B = answer_B
+        self.answer_C = answer_C
+        self.answer_D = answer_D
         self.correct_answer = correct_answer
         self.quiz_id = quiz_id
